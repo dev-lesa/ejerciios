@@ -1,0 +1,22 @@
+1. Inicio
+2. A, i[0-180]
+3. B, i[0-180]
+4. C, i[0-180]
+5. << ingrese el valor del primer angulo
+6. >> A
+7. << ingrese el valor del segundo angulo
+8. >> B
+9. << ingrese el valor del tercer angulo
+10. >> c
+11. Si (A + B + C) != 180 Entonces
+12.     << "Los ángulos no forman un triángulo válido"
+13. Sino
+14.     Si A = 90 or B = 90 or C = 90 Entonces
+15.        << "Triángulo Rectángulo"
+16.    Sino Si A > 90 or B > 90 or C > 90 Entonces
+17.        << "Triángulo Obtusángulo"
+18.    Sino
+19.        << "Triángulo Acutángulo"
+20.    Fin Si
+21. Fin Si
+22. Fin

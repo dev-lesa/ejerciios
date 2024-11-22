@@ -1,0 +1,26 @@
+1. Inicio
+2. cuenta, i[1-n]
+3. nombre_cliente, x(50)[{a-z},{A-Z},{BS}]
+4. precio_compra, d[0-n]
+5. pago_mensual, d[0-n]
+6. continuar, l
+7. salida, x(1)[{y,n}]         // Variable para leer la decisión de continuar
+8. continuar <-- true
+9. Mientras continuar = true Entonces
+10.    << "Ingrese el número de cuenta:"
+11.    >> cuenta
+12.    << "Ingrese el nombre del cliente:"
+13.    >> nombre_cliente
+14.    << "Ingrese el precio de compra:"
+15.    >> precio_compra
+16.    pago_mensual <-- precio_compra / 12
+17.    Para (mes <-- 1, mes <= 12, 1) Haga
+18.        << "Mes: " + mes + " - Pago mensual: " + pago_mensual
+19.    Fin Para
+20.    << "¿Desea continuar? (y/n):"
+21.    >> salida
+22.    Si salida == "n" Entonces
+23.        continuar <-- false
+24.    Fin Si
+25. Fin Mientras
+26. Fin

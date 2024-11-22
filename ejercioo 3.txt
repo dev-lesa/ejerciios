@@ -1,0 +1,25 @@
+1. Inicio
+2. A, i[-n, n]
+3. B, i[-n, n]
+4. C, i[-n, n]
+5. mayor, i[-n, n]
+6. << "Ingrese el número A:"
+7. >> A
+8. << "Ingrese el número B:"
+9. >> B
+10. << "Ingrese el número C:"
+11. >> C
+12. Si A = B or A = C or B = C Entonces
+13.     << "LOS VALORES SON IGUALES"
+14. Sino
+15.     mayor <-- A
+16.     Si B > mayor Entonces
+17.         mayor <-- B
+18.     Sino
+19.         Si C > mayor Entonces
+20.             mayor <-- C
+21.         Fin Si
+22.     Fin Si
+23.     << "El mayor es: "+ mayor
+24. Fin Si
+25. Fin

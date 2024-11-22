@@ -1,0 +1,29 @@
+1. Inicio
+2. cantidad_trajes, i[1-n]
+3. precio_unitario, d[0-n]
+4. subtotal, d[0-n]
+5. descuento, d[0-n]
+6. total, d[0-n]
+7. << "Ingrese la cantidad de trajes:"
+8. >> cantidad_trajes
+9. << "Ingrese el precio unitario del traje"
+10. >> precio_unitario
+11. subtotal <-- cantidad_trajes * precio_unitario
+12. Si cantidad_trajes = 1 Entonces
+13.     descuento <-- subtotal * 0.10
+14. Sino
+15.     Si cantidad_trajes = 2 Entonces
+16.         descuento <-- subtotal * 0.20
+17.     Sino
+18.         Si cantidad_trajes = 3 Entonces
+19.             descuento <-- subtotal * 0.40
+20.         Sino
+21.             descuento <-- subtotal * 0.60
+22.         Fin Si
+23.     Fin Si
+24. Fin Si
+25. total <-- subtotal - descuento
+26. << "Subtotal: "+ subtotal
+27. << "Descuento: "+ descuento
+28. << "Total: "+ total
+29. Fin

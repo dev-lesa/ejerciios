@@ -1,0 +1,20 @@
+1. Inicio
+2. numero, i[2,4,6,...,n]
+3. suma, i[0-n]
+4. i, i[2,4,6,...,n]
+5. << "Ingrese un número par mayor o igual a 2:"
+6. >> numero
+7. Si numero < 2 Entonces
+8.     << "Error: El número debe ser mayor o igual a 2"
+9. Sino
+10.    Si numero % 2 != 0 Entonces
+11.        << "Error: El número debe ser par"
+12.    Sino
+13.        suma <-- 0
+14.        Para (i <-- 2, i<= numero, 2) Haga
+15.            suma <-- suma + i
+16.        Fin Para
+17.        << "La suma es: ", suma
+18.    Fin Si
+19. Fin Si
+20. Fin

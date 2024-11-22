@@ -1,0 +1,14 @@
+1. Inicio
+2. edificio, i[1-n]
+3. departamento, i[1-n]
+4. mes, i[1-n]
+5. renta, d[0-n]
+6. renta <-- 800
+7. Para (edificio <-- 1, edificio <= 20, 1) Haga
+8.     Para (departamento <-- 1, departamento <= 15, 1) Haga
+9.         Para (mes <-- 1, mes <= 12, 1) Haga
+10.            << "Edificio: " + edificio + ", Departamento: " + departamento + ", Mes: " + mes + ", Renta: " + renta
+11.        Fin Para
+12.    Fin Para
+13. Fin Para
+14. Fin

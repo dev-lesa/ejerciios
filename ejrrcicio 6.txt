@@ -1,0 +1,18 @@
+1. Inicio
+2. N, i[1-n]
+3. metro, i[1-N]
+4. yardas, d[0-n]
+5. pulgadas, d[0-n]
+6. pies, d[0-n]
+7. tabla, x(1000)[{a-z}, {A-Z}, {BS}, {1,2,3...} ]
+8. << "Ingrese el número máximo de metros:"
+9. >> N
+10. tabla <-- "Metros\tYardas\tPulgadas\tPies\n" 
+11. Para (metro <-- 1, metro <= N, 1) Haga
+12.    yardas <-- metro * 1.09361
+13.    pulgadas <-- metro * 39.3701
+14.    pies <-- metro * 3.28084
+15.    tabla <-- tabla + metro + "\t" + yardas + "\t" + pulgadas + "\t" + pies + "\n"
+16. Fin Para
+17. << tabla
+18. Fin
