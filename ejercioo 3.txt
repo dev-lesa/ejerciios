@@ -15,7 +15,6 @@
 15.     mayor <-- A
 16.     Si B > mayor Entonces
 17.         mayor <-- B
-18.     Sino
 19.         Si C > mayor Entonces
 20.             mayor <-- C
 21.         Fin Si
