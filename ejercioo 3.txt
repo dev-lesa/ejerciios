@@ -1,8 +1,8 @@
 1. Inicio
-2. A, i[-n, n]
-3. B, i[-n, n]
-4. C, i[-n, n]
-5. mayor, i[-n, n]
+2. A, d[-n, n]
+3. B, d[-n, n]
+4. C, d[-n, n]
+5. mayor, d[-n, n]
 6. << "Ingrese el número A:"
 7. >> A
 8. << "Ingrese el número B:"
