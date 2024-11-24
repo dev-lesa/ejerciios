@@ -13,10 +13,12 @@
 13. Sino
 14.     Si A = 90 or B = 90 or C = 90 Entonces
 15.        << "Triángulo Rectángulo"
-16.    Sino Si A > 90 or B > 90 or C > 90 Entonces
-17.        << "Triángulo Obtusángulo"
-18.    Sino
-19.        << "Triángulo Acutángulo"
-20.    Fin Si
-21. Fin Si
-22. Fin
+16.    Sino 
+17.        Si A > 90 or B > 90 or C > 90 Entonces
+18.           << "Triángulo Obtusángulo"
+19.        Sino
+10.           << "Triángulo Acutángulo"
+21.        Fin Si
+22.     Fin Si
+23. Fin si
+24. fin
