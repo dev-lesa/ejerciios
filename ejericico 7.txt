@@ -12,7 +12,7 @@
 12.     negativo <-- 11 * i
 13.     i = i +1
 15.     Fin Si
-16.     cadena <-- cadena + positivo +  + negativo
+16.     cadena <-- cadena +"+" +positivo + "-" + negativo
 17. Fin Para
 18. << cadena
 19. Fin
