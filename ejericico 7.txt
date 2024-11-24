@@ -10,9 +10,7 @@
 10. Para (i <-- 1, i <= k, 1) Haga
 11.     positivo <-- 12 * i
 12.     negativo <-- 11 * i
-13.     i = i +1
-15.     Fin Si
-16.     cadena <-- cadena +"+" +positivo + "-" + negativo
-17. Fin Para
-18. << cadena
-19. Fin
+13.     cadena <-- cadena +"+" +positivo + "-" + negativo
+14. Fin Para
+15. << cadena
+16. Fin
