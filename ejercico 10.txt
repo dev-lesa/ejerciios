@@ -1,13 +1,12 @@
 1. Inicio
 2. contador, i[1-n]
 3. numero, i[1-n]
-4. contador <-- 0
+4. contador <-- 1
 5. numero <-- 1
-6. Mientras contador < 20 Entonces
+6. Mientras contador =< 20 Entonces
 7.     Si numero % 7 = 0 Entonces
 8.         << numero
 9.         contador <-- contador + 1
 10.    Fin Si
-11.    numero <-- numero + 1
-12. Fin Mientras
-13. Fin
+11. Fin Mientras
+12. Fin
