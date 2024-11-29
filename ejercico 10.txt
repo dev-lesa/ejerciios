@@ -1,6 +1,6 @@
 1. Inicio
-2. contador, i[1-n]
-3. numero, i[1-n]
+2. contador, i[-nn]
+3. numero, i[n-n]
 4. contador <-- 1
 5. numero <-- 1
 6. Mientras contador =< 20 Entonces
@@ -8,5 +8,6 @@
 8.         << numero
 9.         contador <-- contador + 1
 10.    Fin Si
-11. Fin Mientras
-12. Fin
+11.    numero <- numero + 1
+12. Fin Mientras
+13. Fin
